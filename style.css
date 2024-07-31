@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.icon-menu{
+    width: 100%;
+    background-color: #1c9ae3;
+    display: flex;
+}
+.icon-menu a{
+   
+   flex-wrap:wrap ;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.5s ease;
+    color: #1C36E3;
+    font-size: 40px;
+}
+.icon-menu a:hover{
+    background-color: #28b09ea9;
+}
+.active {
+    background-color: #28b09ea9; /* Add an active/current color */
+  }
+/* varticall till opened ipad/any smartphone  */
+@media only screen and (max-width: 768px) 
+{    
+    .icon-menu {
+    width: 100%; 
+    display:block; 
+    }
+    .icon-menu a {
+    width: 100%;
+    padding: 0 50%;
+    text-decoration: none;
+      }
+      
+  }
